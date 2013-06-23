@@ -1,50 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Dai Hu | 胡岱</title>
-  <meta name="author" content="Dai Hu | 胡岱"/>
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/media/css/home.css">
-  <style type="text/css">
-  html, body {
-    background-color: #F8F8F8;
-  }
-  .container > footer p , .postheader > a{
-    text-align: center;
-  }
-  .date {
-    text-align: center;
-    height: 30px;
-    color:#bfbfbf;
-    margin-bottom: 10px;
-  }
-  /* Specify class=linenums on a pre to get line numbering */
-  ol.linenums {
-    margin: 0 0 0 33px; /* IE indents via margin-left */
-  } 
-  ol.linenums li {
-    padding-left: 12px;
-    color: #bebec5;
-    line-height: 18px;
-    text-shadow: 0 1px 0 #fff;
-  }
-  </style>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Henrik Nyh</title>
+    <meta name="viewport" content="width=device-width">
 
-</head>
-<body>
-  <div class="container">
-  <h1 class="sitename">Dai Hu</h1>
-  <ul class="nav pills">
-  <li><a href="/">Home</a></li>
-  <li><a href="/cn/">Chinese</a></li>
-  <li><a href="/en/">English</a></li>
-</ul>
-{% if page.avatar %} <p><img src="" title="Dai Hu" align="right" /></p> {% endif %}
-{{ content }}
-<footer>
-  <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2005 - {{site.time | date:"%Y"}} by <a href="http://nothinghd.github.io">Dai Hu</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
-</footer>
-</div>
-</body>
+    <link rel="shortcut icon" href="../../favicon.png">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../normalize.css">
+    <link rel="stylesheet" href="../../main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+  <body>
+    <div class="page">
+
+      <header>
+        <img src="../../pug.png" alt="" class="the-pug">
+      </header>
+
+      <section class="content" style="font-family:STHeiti Light">
+        <p>Hi~ 我是<b>胡岱</b>, 目前是一名程序媛.</p>
+
+        <p>我的博客在 <a href="/cn/">中文</a>|<a href="/en/">English</a>.</p>
+        <p>
+        我在武汉学习和工作.</p>
+        <p>这个博客主要被用来记录一些不负责任的观点与见闻</p>
+        <p>ps. 这绝不是一个技术博客. </p>
+        <p>Contact me at <a href="http://weibo.com/nonamehd"><span class="at">@</span>trip四另外一个我</a> or <a href="mailto:nonamehd@163.com">nonamehd<span class="at">@</span>163.com</a>.</p>
+      </section>
+
+      <footer>
+        <p class="weird-character">HD</p>
+      </footer>
+    </div>
+  </body>
 </html>
